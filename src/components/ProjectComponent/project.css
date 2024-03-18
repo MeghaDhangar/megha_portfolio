@@ -1,0 +1,86 @@
+.projectBox{
+    height: 100%;
+}
+
+
+.imgBox h4{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    /* text-decoration: none; */
+}
+
+.imgBox p{
+    font-size: 10px;
+    color: white;
+   
+    /* text-decoration: none; */
+}
+
+.imgBox img{
+    margin-top: 25px;
+    border:  1px solid #15144b;
+    
+}
+.imgBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 30px;
+    height: 300px;
+    width: 100rem;
+    margin: 30px 75px 10px 20px;
+    padding: 17px 0px; 
+}
+
+@media (max-width:468px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .projectBox{
+        margin-top: 180px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .projectIcon{
+        margin-left: 50px;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .imgBox img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (min-width:469px) and (max-width:768px)  {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .projectBox{
+        margin-top: 180px;
+        width: 100%;
+        height: auto;
+    }
+
+    .projectIcon{
+        margin-left: 130px;
+        width: 100%;
+        height: auto;
+    }
+
+    .imgBox img{
+        width: 100%;
+        height: auto;
+    }
+
+}

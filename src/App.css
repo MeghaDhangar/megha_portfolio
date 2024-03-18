@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(13, 13, 27);
+    /* background-color: rgb(148, 148, 170); */
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    /* height: 3000px; */
+}
+
+.header{
+    /* background-color: rgb(28, 28, 37); */
+    height: 60px;   
+    background-color: rgb(21, 20, 75);
+}
+
+
+
+.links{
+    font-size: 12px;
+    /* cursor: pointer; */
+}
+
+.footer{
+    background-color:rgb(21, 20, 75);
+    color: white;
+    height: 310px;
+    
+}

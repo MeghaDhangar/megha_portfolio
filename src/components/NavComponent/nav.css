@@ -1,0 +1,45 @@
+.Links{
+    /* text-decoration: none; */
+    /* background: white; */
+    color: white    ;
+    /* text-decoration: none; */
+}
+
+.Links:hover{
+    /* background-color: white; */
+    color: rgb(206, 187, 187);
+    /* text-decoration: none; */
+}
+
+
+@media (max-width:468px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navBox{
+        height: 220px;   
+        background-color: rgb(60, 37, 70);
+    }
+
+    .navBox h3{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:469px) and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navBox{
+        height: 220px;   
+        background-color: rgb(60, 37, 70);
+    }
+
+    .navBox h3{
+        margin-bottom: 30px;
+    }
+}

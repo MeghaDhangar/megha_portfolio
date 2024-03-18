@@ -1,0 +1,129 @@
+
+
+.img{
+    border-radius: 100px;
+    border: 2px solid white;
+    height: 350px;
+    width: 700px;
+    margin-top: 40px;
+}
+
+.sectionTwo hr{
+    height: 0.3px;
+    background-color: white;
+    width: 78vw;
+    margin-left: 11vw;
+}
+
+.infoLine{
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoLine div{
+    height: 75px;
+    width: 1px;
+    background: white;
+    margin-left: 1.4vw;
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.infoLine div b{
+    margin-right: 80px;
+}
+
+.milestone b{
+    margin-left: 11vw;
+    font-size: 20px;
+}
+
+.tabletr:hover{
+    color: rgb(206, 187, 187);
+}
+
+.tableLink{
+    color: white;
+}
+
+.tableLink:hover{
+    color: rgb(206, 187, 187);
+}
+
+@media (max-width:468px)  {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .aboutBox{
+        margin-top: 180px;
+        width: 100%;
+        /* height: 920px; */
+        height: auto;
+        /* font-size: 5px; */
+        /* background: #000; */
+    }
+
+    .aboutBox img{
+        width: 100%;
+        height: auto;
+    }
+
+    .sectionTwo{
+        margin-right: 22px;
+        /* demo change */
+        width: 100%;
+        height: auto;
+    }
+
+    /* .tableBox b{
+        margin-left: auto;
+    } */
+
+    .tableBox table{
+        position: absolute;
+        right: 190px;
+        width: 100%;
+    }
+
+    .tableBox{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width:469px) and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .aboutBox{
+        margin-top: 180px;
+        height: 1400px;
+        /* font-size: 5px; */
+        /* background: #000; */
+    }
+
+    .aboutBox img{
+        width: 100%;
+        height: auto;
+    }
+
+    .sectionTwo{
+        margin-right: 22px;
+        /* demo change */
+        width: 100%;
+        height: auto;
+    }
+
+    .tableBox table{
+        position: absolute;
+        right: 140px;
+        width: 100%;
+    }
+
+    .tableBox{
+        width: 100%;
+        height: auto;
+    }
+}

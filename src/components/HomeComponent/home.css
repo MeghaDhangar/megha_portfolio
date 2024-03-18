@@ -1,0 +1,50 @@
+.homeBox{
+    height: 500px;    
+}
+
+.btn{
+    background-color:  #15144b;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: 70px;
+}
+
+.btn:hover{
+    color: rgb(206, 187, 187);
+    border: 2px solid rgb(206, 187, 187);
+}
+
+@media (max-width:468px)  {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .homeBox{
+        margin-top: 250px;
+        height: 520px;
+    }
+
+    .homeBox img{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (min-width:469px) and (max-width:768px)  {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .homeBox{
+        margin-top: 250px;
+        height: 1100px;
+    }
+
+    .homeBox img{
+        width: 100%;
+        height: auto;
+    }
+    
+}
