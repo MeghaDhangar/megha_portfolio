@@ -10,6 +10,7 @@ export default function Project(){
         {img : 'img/portfalio.png', name : 'My Portfolio Website', msg : 'Click For More Details', path : '/myPortfolio'},
         {img : 'img/news.png', name : 'NewsList', msg : 'Click For More Details', path : '/newslist'},
         {img : 'img/brainvita.png', name : 'The Brainvita Game', msg : 'Click For More Details', path : '/brainvitagame'},
+        {img : 'img/rockpprscizer.png', name : 'The RockPapperScizer Game', msg : 'Click For More Details', path : '/rockpprscizer'},
     
     ]
         let projectComponent = (ob) =>{
