@@ -7,7 +7,7 @@ export default function Home(){
         <div className='col-lg-6 text-center'>
             <h1>Hi, My name is Megha Dhangar</h1>
             <h1>and I am a passionate</h1>
-            <h1> Full Stack Developer.</h1>
+            <h1> React Js Developer.</h1>
             <br/>
             <button className='btn' onClick={()=>window.open('https://linkedin.com/in/meghadhangar1301')}>Visit LikedIn</button> &nbsp; &nbsp; 
             <button className='btn' onClick={()=>window.open('https://github.com/MeghaDhangar')}>Visit Github</button>

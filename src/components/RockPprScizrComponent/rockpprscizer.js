@@ -18,8 +18,8 @@ function RockPprGame() {
                      </p>
 
                 <h4 className='mt-5'>Technology Used</h4>
-                <p className='mt-1'>HTML,CSS ,JavaScript</p>
 
+                <p className='mt-1'>HTML,CSS ,JavaScript</p>
                 <h4 className='mt-5'>GitHub Link</h4>
                  <p className='mt-1'>https://github.com/MeghaDhangar/RockPaperScissorGame</p>
             </div>
