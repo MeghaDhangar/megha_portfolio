@@ -10,10 +10,7 @@ export default function About() {
             </div>
         </div>
         <div>
-
         </div>
-
-
         <div className='container-fluid tableBox'>
             {/* <div className='col-lg-12 d-flex justify-content-center mt-5'>
                 <h5>About Me</h5>
@@ -32,10 +29,9 @@ export default function About() {
                             </h3>
                         </div>
                     </div>
+                                
                 </div>
-
             </div>
-
         </div>
     </div>
 }
